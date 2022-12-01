@@ -38,7 +38,7 @@ set Project="%RootFolder%\OfficeScptTest.rcproj"
 		-cleanModel ^
         -save %Project% ^
         -exportModel %ModelName% %Model% "%~dp0exportsettings.xml"^
-		-exportXMP
+		-exportXMP ^
         -quit
        
         
