@@ -37,7 +37,7 @@ set Project="%RootFolder%\OfficeScptTest.rcproj"
         -calculateTexture ^
 		-cleanModel ^
         -save %Project% ^
-        -exportModel %ModelName% %Model% ^
+        -exportModel %ModelName% %Model% "%~dp0exportsettings.xml"^
 		-exportXMP
         -quit
        
