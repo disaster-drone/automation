@@ -59,6 +59,13 @@ Our project has been developed and tested on following machines.
       "client_x509_cert_url": ""
    }
    ```
+ - Navigate to [rc_automation.py](rc_automation.py) and update the following directory path with your locally cloned folder and S3 bucket name 
+   ``` Python
+   local_script_folder = "C://Users/paperspace/Desktop/rc_script/"
+   ```
+   ``` Python
+   bucket_name = 'dsd-cloud-storage'
+   ```
 
 ## Migration Notes
 * Photogrammetry Script
