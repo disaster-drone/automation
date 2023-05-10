@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Description](#Description)
 3. [Installation](#Installation) 
-5. [Migration Notes](#Migration Notes)
+5. [Migration Notes](#Migration-Notes)
 
 
 ## Description
