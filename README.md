@@ -25,6 +25,7 @@ The following components of the automation are described below:
 - Desktop PC or Virtual Machine with [CUDA-enabled](https://developer.nvidia.com/cuda-gpus) GPU *(See the machine type we used below)*
 
 **Machine Type**
+
 Our project has been developed and tested on following machines.
 
 
