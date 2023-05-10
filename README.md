@@ -36,7 +36,7 @@ Our project has been developed and tested on following machines.
 | Paperspace GPU VM | Windows Server 2022 | NVIDIA Quadro RTX4000 | Intel Xeon Silver 4215R (8 vCPU) | 30 GB | 250 GB SSD |
 | Desktop PC | Windows 10 | NVIDIA GeForce RTX 2080Ti | AMD Ryzen Threadripper 3960X (24 vCPU) | 16 GB | 1 TB SSD |
 
-> Please note that the actual specifications of your machines may vary. Only NVIDIA GPU support the CUDA toolkit*
+> Only NVIDIA GPU currently support the CUDA toolkit
 
 **Installation**
 
