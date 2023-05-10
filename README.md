@@ -7,7 +7,10 @@
 
 
 ## Description
-The creation of the VR environment has been automated with a combination of Python, Bash Scripting, and C++. The automation will export an executable VR environment that can be accessed directly through a VR headset like Quest 2. The automation part for this project has multiple components to it and can also be run individually to export the 3D model with textures only as well as creating a VR environment from an existing 3D model (*supported format: .fbx*). The following components of the automation are described below:
+The creation of the VR environment has been automated with a combination of Python, Bash Scripting, and C++. The automation will export an executable VR environment that can be accessed directly through a VR headset like Quest 2. The automation part for this project has multiple components to it and can also be run individually to export the 3D model with textures only as well as creating a VR environment from an existing 3D model (*supported format: .fbx*). 
+
+The following components of the automation are described below:
+
 * Photogrammetry Script: The photogrammetry script turns the images taken from the drone into a 3D model by using Reality Capture. It is a .bat file which opens reality capture, aligns images, calculates a model, simplifies the model, calculates the texture, and exports the camera location, the .fbx model, and textures for the .fbx.
 * Unreal Import Script
 * Unreal Package Script
