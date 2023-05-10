@@ -37,8 +37,6 @@ Our project has been developed and tested on following machines.
 *Please note that the actual specifications of your machines may vary*
 
 
-**Installation**
-
 
 ## Migration Notes
 * Photogrammetry Script
