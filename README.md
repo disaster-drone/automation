@@ -7,9 +7,17 @@
 
 
 ## Description
-
-
+* Overall Description: 
+* Photogrammetry Script: The photogrammetry script turns the images taken from the drone into a 3D model by using Reality Capture. It is a .bat file which opens reality capture, aligns images, calculates a model, simplifies the model, calculates the texture, and exports the camera location, the .fbx model, and textures for the .fbx.
+* Unreal Import Script
+* Unreal Package Script
+* Launch VR Environment Script
+* RPI-> GC Script 
 ## Installation
+**Prequisites**
+
+
+**Installation**
 
 
 ## Migration Notes
