@@ -23,6 +23,7 @@ The following components of the automation are described below:
 - S3 Object Storage on Google Cloud (or any platform)
 - Active [Service Account](https://cloud.google.com/iam/docs/service-accounts-create) with private key downloaded as JSON
 - Desktop PC or Virtual Machine with [CUDA-enabled](https://developer.nvidia.com/cuda-gpus) GPU *(See the machine type we used below)*
+- Download the install latest [CUDA toolkit](https://developer.nvidia.com/cuda-downloads) for your CPU architecture and OS version
 
 **Machine Type**
 
