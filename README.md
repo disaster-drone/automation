@@ -78,9 +78,21 @@ Our project has been developed and tested on following machines.
     * ![image](https://github.com/disaster-drone/automation/assets/94029910/6f1c4492-16df-4cc2-a35a-9083533e0b9d) Sets the coordinate system. This may need to be updated to whichever coordinate system the dataset was taken in.
     * ![image](https://github.com/disaster-drone/automation/assets/94029910/3cb0662b-d0ed-479d-91e2-47e7d3cfd1c0) Currently, the model is being simplified to 250,000 triangles. If you are looking for more detail, set it higher. Keep in mind this may affect performance within the VR Environment,
 
-
-
 * Unreal Import Script
+    * The script utilizes Python >= 3.7 and Google Cloud Storage API client library. Use the following command to install the library using pip. 
+      
+      ```
+      pip install --upgrade google-cloud-storage
+      ```
+      
+    * Navigate to [rc_automation.py](rc_automation.py) and update the following directory path with your locally cloned folder and S3 bucket name
+    * ``` Python
+   local_script_folder = "C://Users/paperspace/Desktop/rc_script/"
+   ```
+   ``` Python
+   bucket_name = 'dsd-cloud-storage'
+   ```
+
 * Unreal Package Script
 * Launch VR Environment Script
 * RPI-> GC Script 
