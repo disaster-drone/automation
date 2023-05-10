@@ -38,7 +38,10 @@ Our project has been developed and tested on following machines.
 
 *Please note that the actual specifications of your machines may vary. Only NVIDIA GPU support the CUDA toolkit*
 
-
+Clone the repository
+~~~
+$ git clone https://github.com/disaster-drone/automation.git
+~~~
 
 ## Migration Notes
 * Photogrammetry Script
