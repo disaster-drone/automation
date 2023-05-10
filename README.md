@@ -85,4 +85,5 @@ Our project has been developed and tested on following machines.
       ```
 
 * Unreal Package Script
-    * The package script runs a [batch file](ue5packagescript.bat) with necessary configuration settings in the Unreal Project and outputs an executable VR environment. Additional 
+    * The package script runs a [batch file](ue5packagescript.bat) with necessary configuration settings in the Unreal Project and outputs an executable VR environment.
+    * This 
