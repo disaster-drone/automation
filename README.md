@@ -87,10 +87,12 @@ Our project has been developed and tested on following machines.
 * Unreal Package Script
     * The package script runs a [batch file](ue5packagescript.bat) with necessary configuration settings in the Unreal Project and outputs an executable VR environment.
     * This script assumes Unreal Engine 5.0 is installed in its default location. You can change the path for Unreal Engine in the script if it's installed anywhere else by updating the following line:
+    
       ``` bat
       set UE5_DIR=""
       ```
     * To run just the packaged script, update the path for Unreal Project that you want to package into an executable
+    
       ``` bat
       :: Specify the path to your project's .uproject file
       set PROJECT_PATH=""
