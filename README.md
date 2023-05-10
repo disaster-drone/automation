@@ -41,7 +41,7 @@ Our project has been developed and tested on following machines.
 **Installation**
 
 - Clone the repository
-   ``` GIT
+   ```
    $ git clone https://github.com/disaster-drone/automation.git
    ```
 - Navigate to "private_key_file.json
