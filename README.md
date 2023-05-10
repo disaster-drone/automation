@@ -36,12 +36,29 @@ Our project has been developed and tested on following machines.
 | Paperspace GPU VM | Windows Server 2022 | NVIDIA Quadro RTX4000 | Intel Xeon Silver 4215R (8 vCPU) | 30 GB | 250 GB SSD |
 | Desktop PC | Windows 10 | NVIDIA GeForce RTX 2080Ti | AMD Ryzen Threadripper 3960X (24 vCPU) | 16 GB | 1 TB SSD |
 
-*Please note that the actual specifications of your machines may vary. Only NVIDIA GPU support the CUDA toolkit*
+> Please note that the actual specifications of your machines may vary. Only NVIDIA GPU support the CUDA toolkit*
 
-Clone the repository
-~~~
-$ git clone https://github.com/disaster-drone/automation.git
-~~~
+**Installation**
+
+- Clone the repository
+   ``` GIT
+   $ git clone https://github.com/disaster-drone/automation.git
+   ```
+- Navigate to "private_key_file.json
+   ``` JSON
+   {
+      "type": "service_account",
+      "project_id": "",
+      "private_key_id": "",
+      "private_key": "",
+      "client_email": "",
+      "client_id": "",
+      "auth_uri": "",
+      "token_uri": "",
+      "auth_provider_x509_cert_url": "",
+      "client_x509_cert_url": ""
+   }
+   ```
 
 ## Migration Notes
 * Photogrammetry Script
