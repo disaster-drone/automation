@@ -90,3 +90,7 @@ Our project has been developed and tested on following machines.
       ``` bat
       set UE5_DIR=""
       ```
+    * To run just the packaged script, update the path for Unreal Project that you want to package into an executable
+      ``` bat
+      :: Specify the path to your project's .uproject file
+      set PROJECT_PATH=""
