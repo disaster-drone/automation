@@ -89,6 +89,7 @@ Our project has been developed and tested on following machines.
     * This script assumes Unreal Engine 5.0 is installed in its default location. You can change the path for Unreal Engine in the script if it's installed anywhere else by updating the following line:
     
       ``` bat
+      :: Specify the path to the Unreal Engine installation
       set UE5_DIR=""
       ```
     * To run just the packaged script, update the path for Unreal Project that you want to package into an executable
