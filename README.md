@@ -44,7 +44,7 @@ Our project has been developed and tested on following machines.
    ```
    $ git clone https://github.com/disaster-drone/automation.git
    ```
-- Navigate to ![private_key_file.json](private_key_file.json)
+- Navigate to [private_key_file.json](automation/private_key_file.json)
    ``` JSON
    {
       "type": "service_account",
