@@ -21,7 +21,18 @@ The following components of the automation are described below:
 - Download Unreal Engine Editor Version: 5.0.3-20979098+++UE5+Release-5.0
 - S3 Object Storage on Google Cloud (or any platform)
 - Active [Service Account](https://cloud.google.com/iam/docs/service-accounts-create) with private key downloaded as JSON
-- Desktop PC or Virtual Machine with CUDA-enabled GPU *(See the machine type we used below)*
+- Desktop PC or Virtual Machine with [CUDA-enabled](https://developer.nvidia.com/cuda-gpus) GPU *(See the machine type we used below)*
+
+**Machine Type**
+Our project has been developed and tested on following machines.
+
+| Machine Name | Operating System | GPU | Processor | RAM | Hard Disk |
+| --- | --- | --- | --- | --- | --- |
+| Google Cloud Compute Engine | Windows Server 2022 | 1 x NVIDIA T4 Virtual Workstation | n1-highcpu-32 (32 vCPU) | 28.8 GB | 250 GB SSD |
+| Paperspace GPU VM | Windows Server 2022 | NVIDIA Quadro RTX4000 | Intel Xeon Silver 4215R (8 vCPU) | 30 GB | 250 GB SSD |
+| Desktop PC | Windows 10 | NVIDIA GeForce RTX 2080Ti | AMD Ryzen Threadripper 3960X (24 vCPU) | 16 GB | 1 TB SSD |
+
+Please note that the information in this table is just an example, and the actual specifications of your machines may vary.
 
 
 **Installation**
