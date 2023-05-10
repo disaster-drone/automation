@@ -19,12 +19,14 @@ The following components of the automation are described below:
 ## Installation
 **Prequisites**
 - Download Unreal Engine Editor Version: 5.0.3-20979098+++UE5+Release-5.0
+- Install [Reality Capture](https://www.capturingreality.com/) Photogrammetry Software
 - S3 Object Storage on Google Cloud (or any platform)
 - Active [Service Account](https://cloud.google.com/iam/docs/service-accounts-create) with private key downloaded as JSON
 - Desktop PC or Virtual Machine with [CUDA-enabled](https://developer.nvidia.com/cuda-gpus) GPU *(See the machine type we used below)*
 
 **Machine Type**
 Our project has been developed and tested on following machines.
+
 
 | Machine Name | Operating System | GPU | Processor | RAM | Hard Disk |
 | --- | --- | --- | --- | --- | --- |
