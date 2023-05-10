@@ -41,10 +41,12 @@ Our project has been developed and tested on following machines.
 **Installation**
 
 - Clone the repository
+
    ```
    $ git clone https://github.com/disaster-drone/automation.git
    ```
 - Navigate to [private_key_file.json](private_key_file.json) and update the following with your Service Account private key
+
    ``` JSON
    {
       "type": "service_account",
@@ -59,7 +61,9 @@ Our project has been developed and tested on following machines.
       "client_x509_cert_url": ""
    }
    ```
+   
  - Navigate to [rc_automation.py](rc_automation.py) and update the following directory path with your locally cloned folder and S3 bucket name 
+ -
    ``` Python
    local_script_folder = "C://Users/paperspace/Desktop/rc_script/"
    ```
