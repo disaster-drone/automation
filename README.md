@@ -18,6 +18,10 @@ The following components of the automation are described below:
 * RPI-> GC Script: This Python Script uploads the images from the Raspberry Pi onboard the drone to Google Cloud S3 Storage. 
 ## Installation
 **Prequisites**
+- Download Unreal Engine Editor Version: 5.0.3-20979098+++UE5+Release-5.0
+- S3 Object Storage on Google Cloud (or any platform)
+- Active [Service Account](https://cloud.google.com/iam/docs/service-accounts-create) with private key downloaded as JSON
+- Desktop PC or Virtual Machine with CUDA-enabled GPU *(See the machine type we used below)*
 
 
 **Installation**
