@@ -14,6 +14,7 @@ The following components of the automation are described below:
 * Photogrammetry Script: The photogrammetry script turns the images taken from the drone into a 3D model by using Reality Capture. It is a .bat file which opens reality capture, aligns images, calculates a model, simplifies the model, calculates the texture, and exports the camera location, the .fbx model, and textures for the .fbx.
 * Unreal Import Script: The Unreal Engine Automation script utilizes the [Unreal Engine Python API](https://docs.unrealengine.com/4.27/en-US/PythonAPI/) and automates importing the images, 3D object and textures, and csv files for image GPS data. Additionally, it also creates a static mesh from the imported objects and creates a datatable using the pre-loaded struct for camera grab feature to work within the VR environment. It outputs a Unreal VR Project ready to be exported.
 * Unreal Package Script: The Unreal Package Script is a batch file that exports the previously created Unreal Project to an executable. Currently, the script packages a Windows executable only. 
+* RPI->Google Cloud Script: The Python Script uploads the images from raspberry pi onboard the drone to Google Cloud and starts the Photogrammetry process. 
 
 ## Installation
 **Prequisites**
@@ -97,6 +98,3 @@ Our project has been developed and tested on following machines.
       ``` bat
       :: Specify the path to your project's .uproject file
       set PROJECT_PATH=""
-      
-* RPI->Google Cloud Script
-    * The Python Script uploads the images from raspberry pi onboard the drone to Google Cloud and starts the Photogrammetry process. 
