@@ -97,3 +97,6 @@ Our project has been developed and tested on following machines.
       ``` bat
       :: Specify the path to your project's .uproject file
       set PROJECT_PATH=""
+      
+* RPI->Google Cloud Script
+    * The Python Script uploads the images from raspberry pi onboard the drone to Google Cloud and starts the Photogrammetry process. 
