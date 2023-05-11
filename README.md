@@ -98,3 +98,6 @@ Our project has been developed and tested on following machines.
       ``` bat
       :: Specify the path to your project's .uproject file
       set PROJECT_PATH=""
+      
+* Unreal Packaged Project
+    * To check our pre-packaged VR executable, check out our other repo [Packaged Project](https://github.com/disaster-drone/packagedproject)
