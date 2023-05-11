@@ -5,11 +5,11 @@ import pprint
 import shutil
 import subprocess
 
-def upload_VR_to_gcs():
+def upload_images_to_gcs():
     storage_client = storage.Client.from_service_account_json("private_key_file.json")
     bucket = storage_client.get_bucket('dsd-cloud-storage')
-    local_directory_path = os.path.join(os.getcwd(), 'uta' , 'VR_environment')
-    destination_prefix = 'uta' + '/VR_environment'
+    local_directory_path = os.path.join(os.getcwd(), 'uta' , 'images')
+    destination_prefix = 'uta' + '/images'
     print(local_directory_path)
     print(destination_prefix)
     
@@ -28,4 +28,4 @@ def upload_VR_to_gcs():
             # Upload the file to the bucket
             blob.upload_from_filename(local_file_path)
 
-upload_VR_to_gcs()
+upload_images_to_gcs()
