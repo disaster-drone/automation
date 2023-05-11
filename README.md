@@ -100,4 +100,5 @@ Our project has been developed and tested on following machines.
       set PROJECT_PATH=""
       
 * Unreal Packaged Project
-    * To check our pre-packaged VR executable, download the latest releases from [Packaged Project](https://github.com/disaster-drone/packagedproject) repository
+    * To check our pre-packaged VR executable, download the [latest releases](https://github.com/disaster-drone/packagedproject/releases/latest)
+    * Instructions to run the executable can be found at [Packaged Project](https://github.com/disaster-drone/packagedproject) repository
